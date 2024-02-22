@@ -44,12 +44,12 @@ The project involves the following key steps:
 #### API for retrieving information City wise
 
 ```http
-  f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
+  "http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
 ```
 #### API for retrieving information by Latitute and Longitude
 
 ```http
-  f"http://api.openweathermap.org/data/2.5/forecast?lat={city['lat']}&lon={city['lon']}&appid={API_KEY}&units=metric"
+  "http://api.openweathermap.org/data/2.5/forecast?lat={city['lat']}&lon={city['lon']}&appid={API_KEY}&units=metric"
 ```
 
 This project is implemented by using these two free API by OpenWeatherMap. 
